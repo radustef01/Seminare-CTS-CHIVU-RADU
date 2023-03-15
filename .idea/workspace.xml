@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="393ec553-994d-4d7b-975a-f2e02b6e2494" name="Changes" comment="Sal">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar04/Seminar04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar04/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar04/src/singleton/classes/BazaDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar04/src/singleton/classes/Secretariat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar04/src/singletonregistry/InstitutiePublica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar04/src/singletonregistry/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Angajat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Angajat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Aplicant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Aplicant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Elev.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Elev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/main/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/main/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/readers/AngajatReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/readers/AngajatReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/readers/AplicantReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/readers/AplicantReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/readers/ElevReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/readers/ElevReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/readers/StudentReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/readers/StudentReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +40,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "D:/Radu/Facultate/AN 3/CTS/seminare CTS/cts ana coman/aaaaa",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Radu/Facultate/AN 3/CTS/seminare CTS/cts ana coman/aaaaa&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Radu\Facultate\AN 3\CTS\seminare CTS\Seminare CTS" />
       <recent name="D:\Radu\Facultate\AN 3\CTS\seminare CTS\Seminare CTS\Seminar2\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.singletonregistry.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Seminar04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cts.s02.principii_clean_code.main.Program" />
       <module name="Seminar2" />
@@ -74,8 +86,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="singletonregistry.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singletonregistry.Main" />
+      <module name="Seminar04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singletonregistry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.singletonregistry.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
@@ -103,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677658846311</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sal">
+      <created>1678864355456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678864355456</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
