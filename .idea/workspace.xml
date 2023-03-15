@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="393ec553-994d-4d7b-975a-f2e02b6e2494" name="Changes" comment="Sal">
-      <change afterPath="$PROJECT_DIR$/Seminar2/src/readers/AngajatReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/src/readers/AplicantReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/src/readers/ElevReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/src/readers/StudentReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Angajat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Angajat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Aplicant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Aplicant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Elev.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Elev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/clase/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/main/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/cts/s02/principii_clean_code/main/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/src/readers/AngajatReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/readers/AngajatReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/src/readers/AplicantReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/readers/AplicantReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/src/readers/ElevReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/readers/ElevReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/src/readers/StudentReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/src/readers/StudentReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "D:/Radu/Facultate/AN 3/CTS/seminare CTS/cts ana coman/aaaaa",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -92,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677655853496</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sal">
+      <created>1677658846311</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677658846311</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,7 +1,4 @@
-package readers;
-
-import cts.s02.principii_clean_code.clase.Angajat;
-import cts.s02.principii_clean_code.clase.Aplicant;
+package cts.s02.principii_clean_code.readers;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,32 +6,31 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class AngajatReader implements AplicantReader {
-    public static List<Aplicant> readAngajati(String file) throws FileNotFoundException {
-        Scanner input2 = new Scanner(new File(file));
-        input2.useDelimiter(",");
-        List<Aplicant> angajati = new ArrayList<Aplicant>();
+import cts.s02.principii_clean_code.clase.Angajat;
+import cts.s02.principii_clean_code.clase.Aplicant;
+import cts.s02.principii_clean_code.readers.AplicantReader;
 
-        while (input2.hasNext()) {
-            String nume = input2.next();
-            String prenume = input2.next();
-            int varsta = input2.nextInt();
-            int punctaj = input2.nextInt();
-            int nr = input2.nextInt();
-            String[] vect = new String[5];
-            for (int i = 0; i < nr; i++)
-                vect[i] = input2.next();
-            int salariu = input2.nextInt();
-            String ocupatie = input2.next();
-            Angajat a = new Angajat(nume, prenume, varsta, punctaj, nr, vect, salariu, ocupatie);
-            angajati.add(a);
-        }
-        input2.close();
-        return angajati;
-    }
+public class AngajatReader extends AplicantReader {
 
     @Override
-    public List<Aplicant> readAplicant(String fileName) {
-        return null;
+    public List<Aplicant> readAplicants(String fileName) throws FileNotFoundException {
+        Scanner input2 = new Scanner(new File(fileName));
+        input2.useDelimiter(",");
+        List<Aplicant> aplicants = new ArrayList<Aplicant>();
+
+
+        while (input2.hasNext()) {
+            Angajat angajat = new Angajat();
+            super.readAplicant(input2, angajat);
+            int salariu = input2.nextInt();
+            String ocupatie = input2.next();
+
+            angajat.setSalariu(salariu);
+            angajat.setOcupatie(ocupatie);
+
+            aplicants.add(angajat);
+        }
+        input2.close();
+        return aplicants;
     }
 }
