@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="393ec553-994d-4d7b-975a-f2e02b6e2494" name="Changes" comment="Sal">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar04/Seminar04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar04/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar04/src/singleton/classes/BazaDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar04/src/singleton/classes/Secretariat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar04/src/singletonregistry/InstitutiePublica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar04/src/singletonregistry/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar5/src/simpleFactory/Anestezist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar5/src/simpleFactory/Asistent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar5/src/simpleFactory/Brancardier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar5/src/simpleFactory/Medic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar5/src/simpleFactory/PersonalSpital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar5/src/simpleFactory/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar5/src/simpleFactory/TipPersonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar5/src/simpleFactory/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar2/Seminar2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar2/Seminar2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,23 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Radu/Facultate/AN 3/CTS/seminare CTS/cts ana coman/aaaaa&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "D:/Radu/Facultate/AN 3/CTS/seminare CTS/Seminare CTS",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Radu\Facultate\AN 3\CTS\seminare CTS\Seminare CTS" />
       <recent name="D:\Radu\Facultate\AN 3\CTS\seminare CTS\Seminare CTS\Seminar2\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="simpleFactory" />
     </key>
   </component>
   <component name="RunManager" selected="Application.singletonregistry.Main">
@@ -137,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678864355456</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sal">
+      <created>1678868284770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678868284770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
