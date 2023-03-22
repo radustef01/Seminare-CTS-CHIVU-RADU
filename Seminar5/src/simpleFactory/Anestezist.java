@@ -1,6 +1,8 @@
 package simpleFactory;
 
-public class Anestezist extends PersonalSpital{
+import factoryMethod.PersonalSpital;
+
+public class Anestezist extends PersonalSpital {
 
     private Integer aniVechime;
     public Anestezist(String nume, Integer aniVechime ) {

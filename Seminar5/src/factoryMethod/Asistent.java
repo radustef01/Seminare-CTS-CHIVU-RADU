@@ -1,4 +1,4 @@
-package simpleFactory;
+package factoryMethod;
 
 public class Asistent extends PersonalSpital{
 

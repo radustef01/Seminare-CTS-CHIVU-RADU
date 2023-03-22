@@ -1,6 +1,6 @@
 package simpleFactory.main;
 
-import simpleFactory.PersonalSpital;
+import factoryMethod.PersonalSpital;
 import simpleFactory.SimpleFactory;
 import simpleFactory.TipPersonal;
 

@@ -1,4 +1,4 @@
-package simpleFactory;
+package factoryMethod;
 
 public abstract class PersonalSpital {
     private String nume;

@@ -1,5 +1,10 @@
 package simpleFactory;
 
+import factoryMethod.Asistent;
+import factoryMethod.Brancardier;
+import factoryMethod.Medic;
+import factoryMethod.PersonalSpital;
+
 public class SimpleFactory {
     public PersonalSpital createPersonal(TipPersonal tipPersonal, String name){
         switch(tipPersonal){

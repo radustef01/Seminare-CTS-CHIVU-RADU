@@ -1,8 +1,8 @@
-package simpleFactory;
+package factoryMethod;
 
-public class Medic extends PersonalSpital{
+public class Brancardier extends PersonalSpital{
 
-    public Medic(String nume) {
+    public Brancardier(String nume) {
         super(nume);
     }
 
