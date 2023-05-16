@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="393ec553-994d-4d7b-975a-f2e02b6e2494" name="Changes" comment="Sal">
-      <change afterPath="$PROJECT_DIR$/Seminar8/Seminar8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar8/src/adapter/clase/AdapterObiecteRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar8/src/adapter/clase/AdapterRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar8/src/adapter/clase/Bucatarie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar8/src/adapter/clase/ISoftBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar8/src/adapter/clase/ISoftRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar8/src/adapter/clase/SoftBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar8/src/adapter/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar12/Seminar12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/Autobuz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/Automobil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/CommandPlecareCursa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/ManagerComenzi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -69,13 +68,13 @@
       <recent name="simpleFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.proxy.main.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.main.Main" />
-      <module name="Seminar11" />
+  <component name="RunManager" selected="Application.command.main.Main">
+    <configuration name="adapter.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adapter.main.Main" />
+      <module name="Seminar8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.main.*" />
+          <option name="PATTERN" value="adapter.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="adapter.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.main.Main" />
-      <module name="Seminar8" />
+    <configuration name="command.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="command.main.Main" />
+      <module name="Seminar12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.main.*" />
+          <option name="PATTERN" value="command.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.command.main.Main" />
         <item itemvalue="Application.proxy.main.Main" />
         <item itemvalue="Application.adapter.main.Main" />
         <item itemvalue="Application.strategy.main.Main" />
         <item itemvalue="Application.state.main.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683702590781</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Sal">
+      <created>1684256327751</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684256327751</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
