@@ -22,6 +22,7 @@ public class Detinator implements IClientBanca{
 
     @Override
     public void descriere(Cont cont) {
+
         System.out.println(this.toString()+ cont.toString());
     }
 }

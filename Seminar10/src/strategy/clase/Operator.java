@@ -5,11 +5,7 @@ public class Operator {
     private ModVerificare modVerificare;
 
     public Operator() {
-        this.modVerificare = modVerificare;
-    }
-
-    public ModVerificare getModVerificare() {
-        return modVerificare;
+        this.modVerificare = new VerificarePF();
     }
 
     public void setModVerificare(ModVerificare modVerificare) {

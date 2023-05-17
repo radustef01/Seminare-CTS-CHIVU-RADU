@@ -20,8 +20,8 @@ public class Main {
         //Main.imprimare(bar,300);
 
 
-        AdapterRestaurant adapterRestaurant=new AdapterRestaurant("Alcadibo");
-        Main.imprimare(adapterRestaurant,450);
+        //AdapterRestaurant adapterRestaurant=new AdapterRestaurant("Alcadibo");
+        //Main.imprimare(adapterRestaurant,450);
 
         AdapterObiecteRestaurant adapterObiecteRestaurant=new AdapterObiecteRestaurant(bar);
         imprimare(adapterObiecteRestaurant,300);

@@ -10,6 +10,8 @@ public class Facade {
         medic.adaugaPacient(new Pacient("Stan", 5));
         medic.adaugaPacient(new Pacient("Bilzerian", 4));
         this.salon=new Salon();
+        salon.adaugaPaturiLibere(100);
+        salon.adaugaPaturiLibere(300);
 
     }
 

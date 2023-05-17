@@ -1,6 +1,7 @@
 package flyweight.main;
 
 import flyweight.clase.Cont;
+import flyweight.clase.Detinator;
 import flyweight.clase.FlyweightFactory;
 import flyweight.clase.IClientBanca;
 
@@ -11,11 +12,20 @@ public class Main {
         Cont cont2=new Cont(4000, 14);
         Cont cont3=new Cont(5000, 15);
 
-        IClientBanca detinator=fabrica.getDetinator("Ion", "8888", "Ghencea");
+        Detinator detinator= new Detinator("Radu", "5555", "bucluci");
         detinator.descriere(cont1);
 
-        fabrica.getDetinator("Alin", "9999", "Tunari").descriere(cont2);
-        fabrica.getDetinator("Ion", "8788", "Bucuresti").descriere(cont3);
-        fabrica.getDetinator("Alin", "1234", "Tunari").descriere(cont1);
+        fabrica.getDetinator("Maria","4377634","str secundara")
+                .descriere(cont1);
+        fabrica.getDetinator("Maria","4377634","str secundara")
+                .descriere(cont1);
+        fabrica.getDetinator("Maria","4377634","str secundara")
+                .descriere(cont2);
+
+        fabrica.getDetinator("Maria","4377634","str secundara")
+                .descriere(cont1);
+
+        detinator.descriere(cont1);
+        detinator.descriere(cont2);
     }
 }

@@ -1,12 +1,13 @@
 package flyweight.clase;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class FlyweightFactory {
     private Map<String, IClientBanca> mapCont;
 
     public FlyweightFactory() {
-        this.mapCont = mapCont;
+        this.mapCont = new HashMap<>();
     }
 
     public IClientBanca getDetinator(String nume, String nrTelefon, String adresa){

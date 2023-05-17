@@ -7,7 +7,6 @@ public class ManagerComenzi {
     private List<ICommand> comenzi=new ArrayList<>();
 
     public void invocaComanda(ICommand command) {
-
         comenzi.add(command);
     }
 

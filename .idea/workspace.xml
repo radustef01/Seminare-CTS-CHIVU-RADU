@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="393ec553-994d-4d7b-975a-f2e02b6e2494" name="Changes" comment="Sal">
-      <change afterPath="$PROJECT_DIR$/Seminar12/Seminar12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/Autobuz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/Automobil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/CommandPlecareCursa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/ManagerComenzi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar12/src/command/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar10/src/strategy/clase/VerificaPJ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar10/src/flyweight/clase/Cont.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar10/src/flyweight/clase/Cont.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar10/src/flyweight/clase/Detinator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar10/src/flyweight/clase/Detinator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar10/src/flyweight/clase/FlyweightFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar10/src/flyweight/clase/FlyweightFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar10/src/flyweight/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar10/src/flyweight/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar10/src/strategy/clase/ModVerificare.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar10/src/strategy/clase/ModVerificare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar10/src/strategy/clase/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar10/src/strategy/clase/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar10/src/strategy/clase/VerificarePF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar10/src/strategy/clase/VerificarePF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar10/src/strategy/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar10/src/strategy/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar12/src/command/clase/ManagerComenzi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar12/src/command/clase/ManagerComenzi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar8/src/adapter/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar8/src/adapter/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar9/src/facade/clase/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/seminar9/src/facade/clase/Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seminar9/src/facade/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/seminar9/src/facade/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +74,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.command.main.Main">
-    <configuration name="adapter.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.main.Main" />
-      <module name="Seminar8" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="state.main.Main" />
+      <module name="Seminar11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.main.*" />
+          <option name="PATTERN" value="state.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="proxy.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="proxy.main.Main" />
-      <module name="Seminar8" />
+    <configuration name="flyweight.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flyweight.main.Main" />
+      <module name="Seminar10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="proxy.main.*" />
+          <option name="PATTERN" value="flyweight.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="state.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="state.main.Main" />
+    <configuration name="observer.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.main.Main" />
       <module name="Seminar11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="state.main.*" />
+          <option name="PATTERN" value="observer.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,10 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.command.main.Main" />
-        <item itemvalue="Application.proxy.main.Main" />
-        <item itemvalue="Application.adapter.main.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.observer.main.Main" />
         <item itemvalue="Application.strategy.main.Main" />
-        <item itemvalue="Application.state.main.Main" />
+        <item itemvalue="Application.flyweight.main.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684256327751</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sal">
+      <created>1684256795798</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684256795798</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
