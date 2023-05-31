@@ -11,6 +11,8 @@ public class ManagerComenzi {
     }
 
 
+
+
     public void executaComanda()
     {
         if(comenzi.size()!=0)

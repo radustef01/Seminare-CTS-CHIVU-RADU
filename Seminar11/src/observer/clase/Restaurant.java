@@ -8,6 +8,7 @@ public class Restaurant implements IRestaurant{
     private String nume;
     private List<IClient> listaClienti;
 
+
     public Restaurant(String nume) {
         this.nume = nume;
         this.listaClienti=new ArrayList<>();
