@@ -105,4 +105,6 @@ class PersoanaTest {
         assertEquals(persoana.getNume(),persoana1.getNume());
 
     }
+
+
 }
